@@ -1,0 +1,27 @@
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(
+      to right,
+      rgba($primary-clr, 0.9),
+      rgba($primary-clr, 0.3)
+    ),
+    url("../img/model-1.jpg");
+  background-size: cover;
+  background-position: center top;
+
+  &__name {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid set-text-color($primary-clr);
+
+    &--last {
+      color: $secondary-clr;
+      font-weight: 700;
+    }
+  }
+}
